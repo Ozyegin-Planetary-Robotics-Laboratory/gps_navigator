@@ -145,7 +145,7 @@ class GPSNavigator(Node):
         | Compute   |   Desired heading using calculate_bearing              | 
         | Compute   |   Heading error = Desired heading - Current yaw        |
         | Normalize |   Heading error to [-180, 180]                         |
-        | Decide	|   Rotate if error > angle tolerance, else move forward |
+        | Decide|   Rotate if error > angle tolerance, else move forward |
         ----------------------------------------------------------------------
         """
     def compute_navigation(self):
